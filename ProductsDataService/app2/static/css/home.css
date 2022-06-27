@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    width: 23%;
+    box-shadow: 5px 10px 8px 0 #b00e0a;
+    text-align: center;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+
+}
+
+.title{
+    font-size: 28px;
+}
+
+.image{
+    width: 80%;
+    margin-bottom: 30px;
+}

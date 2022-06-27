@@ -1,0 +1,11 @@
+FROM python:3.10.5
+
+WORKDIR /app2
+
+COPY . /app2
+
+RUN pip install -r requirements.txt
+
+# EXPOSE 5001
+
+CMD gunicorn --bind 0.0.0.0:5001 -w 3 run2:app
