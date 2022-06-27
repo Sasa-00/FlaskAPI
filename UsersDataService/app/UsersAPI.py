@@ -110,5 +110,3 @@ def deleteuser(id):
 def get_user():
 
         return jsonify({"user": usser})
-
-
